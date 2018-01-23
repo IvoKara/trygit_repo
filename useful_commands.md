@@ -1,4 +1,5 @@
-#Git useful commands
+<h1>Git useful commands</h1>
+
 	$ git status 
 	$ git add . 
 	$ git diff --staged
