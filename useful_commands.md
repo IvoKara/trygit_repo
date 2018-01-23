@@ -7,8 +7,8 @@ $ git diff --staged<br>
 $ git commit -a (<i>skiping git add</i>)<br>
 $ git rm --cached  (<i>rm from git</i>)<br>
 $ git log:<br>
-	   -p  (<i>diff each commit</i>)<br>
-	   --word-diff (<i>only diffs</i>)<br>
+<p>	   -p  (<i>diff each commit</i>)</p>
+<p>	   --word-diff (<i>only diffs</i>)<p>
 	   --stat<br>
 	   --pretty=oneline<br>
 			    -graph<br>
