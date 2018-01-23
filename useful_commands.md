@@ -2,20 +2,23 @@
 
 	$ git status 
 	$ git add . 
+	$ git clone <URL>
 	$ git diff --staged
-	$ git commit -a: skiping git add
-	$ git rm --cached: rm from git 
-	$ git log -p: diff each commit 
-		   --word-diff
-		--stat
-		-pretty=oneline
-				-graph
-		-<n>: first n commits
-		--since=n. 
+	$ git commit -a (<i>skiping git add</i>)
+	$ git rm --cached  (<i>rm from git</i>)
+	$ git log:
+	           -p  (<i>diff each commit</i>)
+		   --word-diff (<i>only diffs</i>)
+		   --stat
+		   --pretty=oneline
+				    -graph
+		-<n> (<i>first n commits</i>)
+		--since=<n>.<some timelen>
 		--until
-	*gitk*
-	$ git remote -v(url, use in the cloned repo)
-		   add <short name> <url>
-	//git fetch origin: fetches any new work that has been pushed to that server
+	$ gitk (<i>GUI of diffs</i>)
+	$ git remote:
+		     -v (<i>url, use in the cloned repo</i>)
+		     add <short name> <url>
+	//$ git fetch origin: fetches any new work that has been pushed to that server
 	$ git pull <short name or URL>
 	$ git push <shortname> <branch>
