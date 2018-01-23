@@ -1,24 +1,24 @@
 <h1>Git useful commands</h1>
 
 $ git status <br>
-$ git add . 
-$ git clone <URL>
-$ git diff --staged
-$ git commit -a (<i>skiping git add</i>)
-$ git rm --cached  (<i>rm from git</i>)
-$ git log:
-	   -p  (<i>diff each commit</i>)
-	   --word-diff (<i>only diffs</i>)
-	   --stat
-	   --pretty=oneline
-			    -graph
-	-<n> (<i>first n commits</i>)
-	--since=<n>.<some timelen>
-	--until
-$ gitk (<i>GUI of diffs</i>)
-$ git remote:
-	     -v (<i>url, use in the cloned repo</i>)
-	     add <short name> <url>
-//$ git fetch origin: fetches any new work that has been pushed to that server
-$ git pull <short name or URL>
+$ git add . <br>
+$ git clone <URL><br>
+$ git diff --staged<br>
+$ git commit -a (<i>skiping git add</i>)<br>
+$ git rm --cached  (<i>rm from git</i>)<br>
+$ git log:<br>
+	   -p  (<i>diff each commit</i>)<br>
+	   --word-diff (<i>only diffs</i>)<br>
+	   --stat<br>
+	   --pretty=oneline<br>
+			    -graph<br>
+	-<n> (<i>first n commits</i>)<br>
+	--since=<n>.<some timelen><br>
+	--until<br>
+$ gitk (<i>GUI of diffs</i>)<br>
+$ git remote:<br>
+	     -v (<i>url, use in the cloned repo</i>)<br>
+	     add <short name> <url><br>
+//$ git fetch origin: fetches any new work that has been pushed to that server<br>
+$ git pull <short name or URL><br>
 $ git push <shortname> <branch>
