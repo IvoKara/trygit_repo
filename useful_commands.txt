@@ -1,6 +1,7 @@
 git status 
 git add . 
 git diff --staged
+git clone <URL>
 git commit -a: skiping git add
 git rm --cached: rm from git 
 git log -p: diff each commit 
@@ -17,3 +18,6 @@ git remote -v(url, use in the cloned repo)
 //git fetch origin: fetches any new work that has been pushed to that server
 git pull <short name or URL>
 git push <shortname> <branch>
+git tag -a <version> -m "message" <commit number>: make a new tag
+git show <version>: show the whole commit
+git push origin <tagname>
