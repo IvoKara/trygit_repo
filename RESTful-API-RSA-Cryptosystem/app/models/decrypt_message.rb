@@ -1,2 +1,0 @@
-class DecryptMessage < ApplicationRecord
-end

@@ -1,2 +1,0 @@
-class EncryptMessage < ApplicationRecord
-end
