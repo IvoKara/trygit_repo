@@ -7,13 +7,14 @@ git rm --cached: rm from git
 git log -p: diff each commit 
            --word-diff
         --stat
-	-pretty=oneline
+	--pretty=oneline
 			-graph
 	-<n>: first n commits
 	--since=n. 
 	--until
 gitk
-git remote -v(url, use in the cloned repo)
+git remote (see all cloned repo)
+	   -v(with urls)
            add <short name> <url>
 //git fetch origin: fetches any new work that has been pushed to that server
 git pull <short name or URL>
